@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+ 
+/*header .............*/
+    
+.header{
+    height: 550px;
+    padding-top: 50px;
+    background-image: url(img/cover\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  
+   
+}
+.header .nav-list{
+    list-style-type: none;
+    padding-top: 40px;
+    
+    
+}
+.header .nav-list .nav-item{
+    display: inline-block;
+    font-size: 25px;
+    
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+.nav-item a:hover{
+    color: orange;
+}
+.header .title{
+    font-size: 70px;
+    margin-top: 100px;
+    color: orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.title span{
+    color: rgb(0, 255, 234);
+}
+.desc{
+   
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: solid 2px rgba(0, 255, 238, 0.788);
+    color: rgb(0, 255, 234);
+
+}
+/*menbers.....*/
+.menbers{
+    text-align: center;
+    padding: 50px 30px;
+  
+    
+}
+.menbers h2{
+    width: 500px;
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
+    border-radius: 0 15px;
+    box-shadow: 0 0 15px #bbbbbb;
+    background-color: orange;
+}
+.menbers h2:hover{
+    color: orange;
+    background-color: rgb(1, 1, 35);
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+.member-item{
+    width:400px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 0 0 15px #bbbbbb;
+}
+.member-pic{
+    width: 100%;
+    height:250px ;
+    
+}
+.nenber-name{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.member-bio{
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Abut ....... */
+.about{
+    height: 700px;
+    background-image: url(img/cover2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    background-color: rgba(20, 30, 61, 0.726);
+    background-blend-mode: multiply;
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color:rgba(234, 224, 213, 0.8);
+    
+    border-radius: 50%;
+    margin:  auto;
+    text-align: center;
+    padding: 100px 100px;
+    box-shadow: 0 0 15px rgb(167, 159, 146);
+
+
+}
+.circle h2 {
+    color: #5e503f;
+    font-size: 35px;
+}
+.circle p{
+    color: #5e503f;
+    margin-top: 60px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* Comments........ */
+.comments{
+    text-align: center;
+    padding: 50px 30px;
+    
+    
+}
+.comments h2{
+    width: 500px;
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
+    border-radius: 0 15px;
+    box-shadow: 0 0 15px #bbbbbb;
+    background-color: orange;
+}
+.comments h2:hover{
+    background-color: black;
+    color: orange;
+}
+.comment-list{
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+.comment-item{
+    width: 400px;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0 0 15px black;
+    border-radius: 20px ;   
+
+}
+.comment-item:hover{
+    background-color: orange;
+    color: white;
+    
+}
+
+.comment-img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px ;  
+}
+.comment-titel{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.comment-text{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: rgb(4, 4, 59);
+}
+/* footer.... */
+.footer{
+    height: 80px;
+    background-color: #bbbbbb;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+   
+    
+        
+}
+.footer-imgs{
+    width: 40px;
+     
+    display: inline-block;
+    margin: auto  40px;
+   
+    
+        
+}
